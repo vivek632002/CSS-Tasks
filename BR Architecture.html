@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .navbar{
+        z-index: 2;
+      }
+      a {
+        text-decoration: none;
+      }
+      .BR{
+        text-align: center;
+      }
+      hr{
+        opacity: 0.3;
+      }
+      .child1{
+        background-image: url(../../media/Images/summer\ house.jpg);
+        height: 25vh;
+        width: 25vw;
+        background-repeat: no-repeat;
+      }
+      .projects_1{
+        display:flex ;
+        justify-content: space-evenly;
+      }
+      .projects_2{
+        display: flex;
+        justify-content: space-evenly;
+      }
+      .p_img{
+       height: 30vh;
+      }
+
+      .About{
+        width: 100%;
+      }
+     .aboutimg{
+      display: flex;
+      width: 100%;
+      /* justify-content: space-between; */
+     }
+     .a_img{
+       width: 90%;
+       opacity: 0.4;
+    
+     }
+      .form{
+        height: 40px;
+        width: 100%;
+      }
+       /* .button{
+        padding: 10px;
+        color: azure;
+        background-image: linear-gradient(35deg, red,blue,violet);
+      }  */
+      .map{
+        text-align: center;
+      }
+      footer{
+        height: 20vh;
+        background-color: black;
+        color:ghostwhite;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+      }
+       
+      
+    </style>
+  </head>
+  <body>
+    <div class="main">
+    <div class="navbar">
+      <nav>
+        <P> <span>B R</span> Architects</P>
+        <ul>
+          </li>
+          <li><a href="#">Projects</a></li>
+          <li><a href="#">About</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="BR">
+        <img src="../../media/Images/architect.jpg" width="100%"/>
+        <h1>BR Architects</h1>
+    </div>
+    <div class="projects">
+      <h1>Projects</h1><hr>
+       <!-- <div class="projects_1">
+
+       <img class="p_img" src="../../media/Images/summer house.jpg" alt="summer house">
+         <span>Summer House</span>
+        <img class="p_img" src="../../media/Images/house2.jpg" alt="Brick house">
+        <img class="p_img" src="../../media/Images/house3.jpg" alt="Renovated">
+        <img class="p_img" src="../../media/Images/house4.jpg" alt="Bran house">
+    </div><br><br>
+    <div class="projects_2">
+        <img class="p_img" src="../../media/Images/house2 (1).jpg" alt="summer house">
+        <img class="p_img" src="../../media/Images/house5.jpg" alt="Brick house">
+        <img class="p_img" src="../../media/Images/house6.jpg" alt="Renovated">
+        <img class="p_img" src="../../media/Images/house7.jpg" alt="Bran house">
+        </div> -->
+        <div class="child1">Summer House</div>
+        <div class="child2">Brick House</div>
+        <div class="child3">Renovated</div>
+        <div class="child4">Bran House</div>
+        <div class="child5">Summer House</div>
+        <div class="child6">Brick House</div>
+        <div class="child7">Renovated</div>
+        <div class="child8">Bran House</div>
+        
+    </div>
+    <div class="About">
+        <h1>About</h1>  <hr>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis cum quis voluptatem magni modi quae sunt perferendis, quos nam expedita. Pariatur quidem qui laudantium eveniet laboriosam ipsam voluptatum fugiat soluta.
+        Doloremque maxime delectus repudiandae cum libero veritatis velit quasi fugiat, esse aliquid itaque impedit ullam doloribus quis nam voluptate! Doloremque consequuntur ab in culpa quas quam obcaecati accusantium molestiae magni!</p>
+        <div class="aboutimg">
+       <div class="about1"> <img class="a_img" src="../../media/Images/member1.jpg" alt="member1" >
+        <h2>John Doe</h2>
+        <p>CEO & Founder</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+       <div class="about2"> <img class="a_img" src="../../media/Images/member2.jpg" alt="member2">
+       <h2>John Doe</h2>
+       <p>Architect</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+       <div class="about3"><img class="a_img" src="../../media/Images/member3.jpg" alt="member3">
+       <h2>Mike Ross</h2>
+       <p>Architect</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+       <div class="about4"><img class="a_img" src="../../media/Images/member4.jpg" alt="member4">
+        <h2>Dan Star</h2>
+        <p>Architect</p>
+       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
+      </div>
+
+      </div>
+        
+    </div>
+    <div class="contact">
+        <h1>Contact</h1><hr>
+        <spam><b>Lets get in touch and talk about your next Project</b></span><br><br>
+        <form >
+            <label for="Name" ></label>
+            <input type="text" id="Name" name="fname" placeholder="Name" required class="form"/>
+        <br><br>
+        
+            <label for=" email" ></label>
+            <input type="email" id="email" name="femail" placeholder="Email" required class="form"/>
+        <br><br>
+        
+            <label for="Subject" ></label>
+            <input type="text" id="email" name="fsubject" placeholder="Subject" required class="form"/>
+        <br><br>
+        
+            <label for="comment" ></label>
+            <input type="text" id="comment" name="fcomment" placeholder="Comment" required class="form"/>
+      <br><br>
+        
+        <input type="button" value="SEND MESSAGE" class="button"/>
+        <br><br>
+        </form>
+    </div>
+    <div class="map">
+        <img class="map_img" src="../../media/Images/map.jpg" alt="map" width="95%">
+    </div>
+    <div class="footer"></div>
+</div><br><br>
+<footer>
+  <span>Powered by </span><a href="#"><span>w3.schools</span></a>
+</footer>
+  </body>
+  
+</html>

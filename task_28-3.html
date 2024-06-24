@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .gd{
+            padding: 20px;
+            display: grid;
+            grid-auto-columns: 50px;
+            grid-auto-rows: 100px;
+            gap: 20px;
+            justify-content: center;
+
+        }
+        .child{
+            background-color: chocolate;
+        }
+        .c1{
+            grid-area: 1/1/1/4;
+            background-color: crimson;
+        }
+        .c2{
+          grid-area:1/4/1/8;
+          background-color: cadetblue;
+        }
+        .c3{
+          grid-area:1/8/1/10;
+          background-color: green;
+        }
+        .c4{
+           grid-area:2/1/4/4;
+           
+        }
+        .c5{
+           grid-area: 2/4/4/10;
+           background-color:coral;
+        }
+        .c6{
+            grid-area: 1/10/4/12;
+            background-color: darkblue;
+        }
+        .c7{
+           grid-area: 1/12/4/15;
+           background-color: cornflowerblue;
+        }
+        .c8{
+          grid-area: 1/15/4;
+          background-color: darkorchid;  
+        }
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Grid Template-3</h1>
+    <div class="gd">
+        <div class="child c1"></div>
+        <div class="child c2"></div>
+        <div class="child c3"></div>
+        <div class="child c4"></div>
+        <div class="child c5"></div>
+        <div class="child c6"></div>
+        <div class="child c7"></div>
+        <div class="child c8"></div>
+    </div>
+</body>
+</html>

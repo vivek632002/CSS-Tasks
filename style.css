@@ -1,0 +1,28 @@
+nav{
+    height: 15vh;
+    width: 80vw;
+    border: 1px solid;
+}
+header{
+    height: 35vh;
+    width:80vw;
+    border: 1px solid;
+}
+.head1{
+    height: 40%;
+    width: 100%;
+}
+.head2{
+    height: 40%;
+    width: 100%;
+}
+article{
+    height: 35vh;
+    width:80vw;
+    border:1px solid;
+}
+footer{
+    height:15vh;
+    width:80vw;
+    border: 1px solid;
+}
